@@ -1,17 +1,17 @@
 function About() {
   const highlights = [
     {
-      number: "500+",
+      number: "600+",
       title: "CodeChef Problems",
       description: "Solved",
     },
     {
-      number: "100+",
+      number: "150+",
       title: "GFG Problems",
       description: "Completed",
     },
     {
-      number: "50+",
+      number: "100+",
       title: "LeetCode Days",
       description: "Consistency",
     },
@@ -26,7 +26,6 @@ function About() {
     "Full Stack Development",
     "MERN Stack",
     "Problem Solving",
-    "UI/UX Development",
     "Modern Web Technologies",
   ];
 
@@ -92,12 +91,6 @@ function About() {
               problem-solving, frontend and backend development skills.
             </p>
 
-            <p className="mt-4 text-sm leading-7 text-slate-400 sm:text-base">
-              I believe in learning by building real projects, experimenting
-              with new technologies and consistently improving the quality of
-              my work.
-            </p>
-
             {/* Interests */}
             <div className="mt-8">
               <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-slate-300">
@@ -144,42 +137,39 @@ function About() {
             ))}
 
             {/* Currently Card */}
-<div className="col-span-2 rounded-2xl border border-cyan-400/20 bg-cyan-400/5 p-5 sm:p-6">
+            <div className="col-span-2 rounded-2xl border border-cyan-400/20 bg-cyan-400/5 p-5 sm:p-6">
 
-  {/* Heading */}
-  <div className="text-center">
-    <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400">
-      Currently Working On
-    </p>
+              {/* Heading */}
+              <div className="text-center">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400">
+                  Currently Working On
+                </p>
 
-    <h4 className="mt-2 text-lg font-bold text-white sm:text-xl">
-      · Building · Learning · Growing
-    </h4>
-  </div>
+                <h4 className="mt-2 text-lg font-bold text-white sm:text-xl">
+                  · Building · Learning · Growing
+                </h4>
+              </div>
 
-  {/* Skills Row */}
-  {/* Skills Row */}
-<div className="mt-5 flex items-center justify-center gap-2">
+              {/* Skills Row */}
+              <div className="mt-5 grid grid-cols-2 gap-2 px-2 lg:flex lg:items-center lg:justify-center lg:gap-2 lg:px-0">
+                <span className="whitespace-nowrap rounded-lg border border-slate-700 bg-slate-950 px-2.5 py-1.5 text-center text-[11px] text-slate-400 lg:px-3 lg:py-2 lg:text-xs">
+                  🚀 Full Stack
+                </span>
 
-  <span className="whitespace-nowrap rounded-lg border border-slate-700 bg-slate-950 px-2.5 py-1.5 text-[11px] text-slate-400 sm:px-3 sm:py-2 sm:text-xs">
-    🚀 Full Stack
-  </span>
+                <span className="whitespace-nowrap rounded-lg border border-slate-700 bg-slate-950 px-2.5 py-1.5 text-center text-[11px] text-slate-400 lg:px-3 lg:py-2 lg:text-xs">
+                  ⚡ MERN Stack
+                </span>
 
-  <span className="whitespace-nowrap rounded-lg border border-slate-700 bg-slate-950 px-2.5 py-1.5 text-[11px] text-slate-400 sm:px-3 sm:py-2 sm:text-xs">
-    ⚡ MERN Stack
-  </span>
+                <span className="whitespace-nowrap rounded-lg border border-slate-700 bg-slate-950 px-2.5 py-1.5 text-center text-[11px] text-slate-400 lg:px-3 lg:py-2 lg:text-xs">
+                  💡 Problem Solving
+                </span>
 
-  <span className="whitespace-nowrap rounded-lg border border-slate-700 bg-slate-950 px-2.5 py-1.5 text-[11px] text-slate-400 sm:px-3 sm:py-2 sm:text-xs">
-    💡 Problem Solving
-  </span>
+                <span className="whitespace-nowrap rounded-lg border border-slate-700 bg-slate-950 px-2.5 py-1.5 text-center text-[11px] text-slate-400 lg:px-3 lg:py-2 lg:text-xs">
+                  🌐 Web Development
+                </span>
+              </div>
 
-  <span className="whitespace-nowrap rounded-lg border border-slate-700 bg-slate-950 px-2.5 py-1.5 text-[11px] text-slate-400 sm:px-3 sm:py-2 sm:text-xs">
-    🌐 Web Development
-  </span>
-
-</div>
-
-</div>
+            </div>
           </div>
         </div>
 
