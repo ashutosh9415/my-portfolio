@@ -2,15 +2,25 @@ import { useState } from "react";
 
 const projects = [
     {
-        title: "Password Manager",
-        category: "fullstack",
-        description:
-            "A secure full-stack password manager for storing and managing passwords with an easy-to-use interface.",
-        tech: "React • Node.js • Express • MongoDB",
-        icon: "🔐",
-        github: "https://github.com/ashutosh9415/Password-Manager",
-        demo: "https://passwordmanager-lime.vercel.app/",
-    },
+    title: "FoodRush",
+    category: "fullstack",
+    description:
+        "A full-stack food delivery platform with food browsing, cart and orders, role-based dashboards, online payments, and real-time delivery tracking.",
+    tech: "React • Node.js • Express • MongoDB • Socket.IO",
+    icon: "🍔",
+    github: "https://github.com/ashutosh9415/FoodRush",
+    demo: "https://foodrush-client.vercel.app/",
+},
+{
+    title: "Password Manager",
+    category: "fullstack",
+    description:
+        "A secure full-stack password manager for storing and managing passwords with an easy-to-use interface.",
+    tech: "React • Node.js • Express • MongoDB",
+    icon: "🔐",
+    github: "https://github.com/ashutosh9415/Password-Manager",
+    demo: "https://passwordmanager-lime.vercel.app/",
+},,
     {
         title: "E-Commerce Website",
         category: "frontend",
