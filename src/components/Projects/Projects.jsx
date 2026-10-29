@@ -2,25 +2,36 @@ import { useState } from "react";
 
 const projects = [
     {
-    title: "FoodRush",
-    category: "fullstack",
-    description:
-        "A full-stack food delivery platform with food browsing, cart and orders, role-based dashboards, online payments, and real-time delivery tracking.",
-    tech: "React • Node.js • Express • MongoDB • Socket.IO",
-    icon: "🍔",
-    github: "https://github.com/ashutosh9415/FoodRush",
-    demo: "https://foodrush-client.vercel.app/",
-},
-{
-    title: "Password Manager",
-    category: "fullstack",
-    description:
-        "A secure full-stack password manager for storing and managing passwords with an easy-to-use interface.",
-    tech: "React • Node.js • Express • MongoDB",
-    icon: "🔐",
-    github: "https://github.com/ashutosh9415/Password-Manager",
-    demo: "https://passwordmanager-lime.vercel.app/",
-},,
+        title: "ExamNotesAI",
+        category: "fullstack",
+        description:
+            "An AI-powered exam notes generator that creates organized study notes, quick revision summaries, diagrams, and charts using AI.",
+        tech: "React • Node.js • Express • MongoDB • Gemini API",
+        icon: "📚",
+        github: "https://github.com/ashutosh9415/1.ExamNotesAI",
+        demo: "https://one-examnotesaiclient-j3aq.onrender.com",
+    },
+
+    {
+        title: "FoodRush",
+        category: "fullstack",
+        description:
+            "A full-stack food delivery platform with food browsing, cart and orders, role-based dashboards, online payments, and real-time delivery tracking.",
+        tech: "React • Node.js • Express • MongoDB • Socket.IO",
+        icon: "🍔",
+        github: "https://github.com/ashutosh9415/FoodRush",
+        demo: "https://foodrush-client.vercel.app/",
+    },
+    {
+        title: "Password Manager",
+        category: "fullstack",
+        description:
+            "A secure full-stack password manager for storing and managing passwords with an easy-to-use interface.",
+        tech: "React • Node.js • Express • MongoDB",
+        icon: "🔐",
+        github: "https://github.com/ashutosh9415/Password-Manager",
+        demo: "https://passwordmanager-lime.vercel.app/",
+    }, ,
     {
         title: "E-Commerce Website",
         category: "frontend",
@@ -60,8 +71,8 @@ function Projects() {
         activeCategory === "all"
             ? projects
             : projects.filter(
-                  (project) => project.category === activeCategory
-              );
+                (project) => project.category === activeCategory
+            );
 
     return (
         <section
@@ -96,33 +107,30 @@ function Projects() {
 
                     <button
                         onClick={() => setActiveCategory("all")}
-                        className={`rounded-lg px-5 py-2.5 text-sm font-semibold transition-all duration-300 ${
-                            activeCategory === "all"
+                        className={`rounded-lg px-5 py-2.5 text-sm font-semibold transition-all duration-300 ${activeCategory === "all"
                                 ? "bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20"
                                 : "border border-slate-700 bg-slate-900/50 text-slate-400 hover:border-cyan-400 hover:text-cyan-400"
-                        }`}
+                            }`}
                     >
                         All Projects
                     </button>
 
                     <button
                         onClick={() => setActiveCategory("frontend")}
-                        className={`rounded-lg px-5 py-2.5 text-sm font-semibold transition-all duration-300 ${
-                            activeCategory === "frontend"
+                        className={`rounded-lg px-5 py-2.5 text-sm font-semibold transition-all duration-300 ${activeCategory === "frontend"
                                 ? "bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20"
                                 : "border border-slate-700 bg-slate-900/50 text-slate-400 hover:border-cyan-400 hover:text-cyan-400"
-                        }`}
+                            }`}
                     >
                         Frontend Projects
                     </button>
 
                     <button
                         onClick={() => setActiveCategory("fullstack")}
-                        className={`rounded-lg px-5 py-2.5 text-sm font-semibold transition-all duration-300 ${
-                            activeCategory === "fullstack"
+                        className={`rounded-lg px-5 py-2.5 text-sm font-semibold transition-all duration-300 ${activeCategory === "fullstack"
                                 ? "bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20"
                                 : "border border-slate-700 bg-slate-900/50 text-slate-400 hover:border-cyan-400 hover:text-cyan-400"
-                        }`}
+                            }`}
                     >
                         Full Stack Projects
                     </button>
